@@ -8,11 +8,11 @@ document.getElementById("contactForm").addEventListener("submit", function(e){
 
   if(name === "" || email === "" || message === ""){
     document.getElementById("result").innerHTML =
-      "সব ঘর পূরণ করুন!";
+      "Fill in all the boxes!";
   }
   else{
     document.getElementById("result").innerHTML =
-      "ধন্যবাদ " + name + "! আপনার বার্তা পাঠানো হয়েছে।";
+      "Thank you " + name + "! Your message has been sent.";
 
     this.reset();
   }
